@@ -11,7 +11,7 @@
     - [Caddy搭建Google镜像-反向代理](https://www.bilibili.com/video/av79726017/)
 
 - 配置
-    - 最后在Chrome浏览器安装扩展【删除谷歌重定向】
+    - 最后在Chrome浏览器安装扩展【[删除谷歌重定向](https://github.com/kodango/Remove-Google-Redirection)】
 ```shell script
 (.py3) localhost:caddy_v1.0.4_linux_amd64 play$ cat Caddyfile
 :80 {

@@ -20,6 +20,11 @@
 }
 ```    
 
+- 调试
+    - 镜像HTTPS网站
+        - ./caddy -host baidu.com -port 8080
+            - 可能SSL证书获取失败
+        
 ## 还需要买一个服务器   
 - 国外
     - [vultr](https://www.vultr.com/?ref=8349543) 

@@ -12,6 +12,7 @@
 
 - 配置
     - 最后在Chrome浏览器安装扩展【[删除谷歌重定向](https://github.com/kodango/Remove-Google-Redirection)】
+        - Chrome插件 https://chrome.google.com/webstore/detail/dnhjklgpiifbofihffldllbcopkinlod
 ```shell script
 (.py3) localhost:caddy_v1.0.4_linux_amd64 play$ cat Caddyfile
 :80 {

@@ -33,3 +33,19 @@ echo ""
 echo "-------"
 done
 ```
+
+4. Python测试
+```python
+import requests
+from time import sleep
+url='http://172.17.0.2:4000/ip'
+proxies = {
+  "http": "http://localhost:3129",
+  "https": "http://localhost:3129",
+}
+for i in range(200):
+    rs=requests.get(url,proxies=proxies)
+    print(rs.status_code,rs.text)
+    if rs.status_code==429:
+        sleep(0.3)
+```

@@ -1,5 +1,5 @@
 # Docker+Puppeteer抓取动态页面
-
+- 视频 https://www.bilibili.com/video/av81253564/
 ### 问题
 爬虫怎样抓取动态页面？例如电商网站的价格，销量
 

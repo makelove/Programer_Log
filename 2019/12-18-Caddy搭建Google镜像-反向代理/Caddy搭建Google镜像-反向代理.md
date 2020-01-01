@@ -1,7 +1,7 @@
 - 官网
     - https://github.com/caddyserver/caddy
     - 下载 https://caddyserver.com/v1/download
-
+- 视频 https://www.bilibili.com/video/av79726017/
 - 参考
     - [caddy 搭建google 镜像,很容易](https://www.banwagongzw.com/33.html)
     - 安装脚本

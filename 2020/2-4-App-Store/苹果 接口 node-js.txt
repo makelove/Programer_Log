@@ -1,0 +1,42 @@
+苹果 接口 node.js 
+苹果App store 抓取API
+https://github.com/facundoolano/app-store-scraper 
+安装
+npm install -g app-store-scraper
+
+(.py3) localhost:~ play$ npm install -g app-store-scraper
++ app-store-scraper@0.16.2
+added 93 packages from 164 contributors in 5.22s
+
+
+https://itunes.apple.com/lookup?id=962194608
+
+
+测试
+命令行输入node
+var store = require('app-store-scraper');
+store.app({id: 553834731}).then(console.log).catch(console.log);
+
+store.list({
+  collection: store.collection.TOP_FREE_IPAD,
+  category: store.category.GAMES_ACTION,
+  num: 2
+}).then(console.log).catch(console.log);
+
+store.search({
+  term: 'panda',
+  num: 2,
+  page: 3,
+  country : 'cn',
+  lang: 'lang'
+}).then(console.log).catch(console.log);
+
+store.reviews({
+  appId: 'com.midasplayer.apps.candycrushsaga',
+  sort: store.sort.HELPFUL,
+  page: 2
+}).then(console.log).catch(console.log);
+
+store.ratings({
+  appId: '962194608',
+}).then(console.log).catch(console.log);

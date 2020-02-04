@@ -1,0 +1,45 @@
+怎样做一个像 【七麦数据】那样的网站？
+https://www.qimai.cn/
+
+- 获取数据
+从App Store获取数据
+iPhone越狱，抓包
+购买别人已经越狱好的iPhone
+
+抓包工具
+Charles
+Fiddler
+Wireshark
+
+App Store的数据接口
+node.js 模块
+1.榜单列表
+2.关键词
+关键词 流行度
+
+3.根据关键词搜索App，得到App列表
+4.App列表->获取App信息(关键词)，评分ratings
+5.根据关键词搜索App，刷广告列表。目的1：有哪些App投放了广告，目的2：自己投放的广告，有没有展示
+6.某App想投放广告，可以看一下自己的关键词有哪些App竞争对手，投放了多少广告
+7.广告后台，编写算法，App-关键词的关系，精准投放广告。赚取 广告费。用户搜索App时，会出现广告
+8.App趋势报告，排名，类别内排名
+
+不同国家
+
+
+爬虫架构
+scrapy+Redis+MongoDB
+IP代理，购买服务，或自己搭建Squid代理服务-阿里云每个服务器可以领取20个IP
+有瓶颈
+解决：
+    异步asyncio
+    Go语言,很快
+
+数据库
+MongoDB 数据很增长很快
+
+
+网站架构
+Nginx+Tomcat+Spring+MySQL+缓存
+前端
+vue

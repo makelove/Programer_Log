@@ -140,15 +140,15 @@ class XFtts(object):
         pass
 
 
-def test1():
+def tts_say_wave(wav_path,text):
     import wave
     from config import APIKey, APISecret, APPID
     wsParam = XFtts(APPID=APPID,
                     APIKey=APIKey,
                     APISecret=APISecret, )
-    text = '而除了靠免费盗版片获取流量，以广告等方式变现的途径外，更直接的盈利方式就是直接售卖盗版资源。2019年4月，媒体报道称河南公安机关已打击2个制作销售高清盗版电影的犯罪团伙，截止案发，这2个团伙共制作盗版影片320余部，初步估算非法获利700余万元。'
+    
     audiosum = wsParam.say(text)
-    wav_path = f'test1.wav'
+    
     # audiosum += audio
     with wave.open(wav_path, 'wb') as wavfile:
         wavfile.setparams((1, 2, 16000, 0, 'NONE', 'NONE'))
@@ -159,7 +159,9 @@ def test1():
 
 
 def main():
-    test1()
+    wav_path = f'test1.wav'
+    text = '而除了靠免费盗版片获取流量，以广告等方式变现的途径外，更直接的盈利方式就是直接售卖盗版资源。2019年4月，媒体报道称河南公安机关已打击2个制作销售高清盗版电影的犯罪团伙，截止案发，这2个团伙共制作盗版影片320余部，初步估算非法获利700余万元。'
+    tts_say_wave(wav_path,text)
     pass
 
 

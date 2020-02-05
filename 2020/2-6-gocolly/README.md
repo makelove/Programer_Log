@@ -20,11 +20,11 @@
     - 使用多个Collector解析器
         - detailCollector := c.Clone()
         - context传参
-        -             
+
             var ctx=colly.NewContext()
             ctx.Put("cc", js.Cc) 
             c.Request("GET", url, nil, ctx, header)
-            
+
     - 使用代理
         - httpbin get.go
         - 启动Squid代理服务器

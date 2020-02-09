@@ -1,4 +1,5 @@
 # BT下载Torrent 
+- 视频: https://www.bilibili.com/video/av87059432/
 - 3种编程方式
     - Python
     - Node.js

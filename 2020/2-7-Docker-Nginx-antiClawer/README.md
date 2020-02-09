@@ -1,5 +1,9 @@
 # Nginx反爬虫
-- 参考 https://blog.csdn.net/weixin_34341117/article/details/85848963
+- 视频 https://www.bilibili.com/video/av87302823/
+- 参考 
+    - https://blog.csdn.net/weixin_34341117/article/details/85848963
+    - agent_deny.conf https://blog.csdn.net/markchiu/article/details/52512106
+    - Nginx 服务器之速率限制 https://cloud.tencent.com/developer/news/35222
 
 - 启动Docker
 

@@ -1,5 +1,7 @@
 # 爬虫速度比较
 
+- 视频：https://www.bilibili.com/video/av87182685/
+
 常用框架
 - Python
     - Scrapy

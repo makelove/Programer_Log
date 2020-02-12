@@ -39,6 +39,10 @@ http.cors.allow-origin: "*"
 重启
 docker restart es_6_5
 
+python api
+https://elasticsearch-py.readthedocs.io/en/master/
+
+
 部署 ElasticSearch-Head
 3种方式
 https://hub.docker.com/r/mobz/elasticsearch-head
@@ -66,4 +70,3 @@ curl -H "Content-Type: application/json" -XPOST http://localhost:9200/company/em
 }'
 
 
-python api

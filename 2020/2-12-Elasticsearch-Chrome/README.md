@@ -1,3 +1,8 @@
+- 视频 [使用Elasticsearch为Chrome插件增强搜索功能-中文分词](https://www.bilibili.com/video/av88390156/)
+
+- 参考
+    - [Elasticsearch通过docker安装及安装中文分词插件](https://blog.csdn.net/weixin_38229356/article/details/84574416)
+
 Elasticsearch也使用Java开发并使用Lucene作为其核心来实现所有索引和搜索的功能，
 但是它的目的是通过简单的RESTful API来隐藏Lucene的复杂性，从而让全文搜索变得简单。
 不过，Elasticsearch不仅仅是Lucene和全文搜索，我们还能这样去描述它：

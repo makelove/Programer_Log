@@ -1,6 +1,7 @@
 ## Python的秘密
 
-- import this
+- Python之禅 
+    - import this
     - 英文
     - 中文翻译
 ```
@@ -71,3 +72,7 @@ secrets.token_hex()
 secrets.token_urlsafe()
 secrets.compare_digest?
 ```
+
+- 参考
+    - [HTTP对外接口API sign签名](https://www.cnblogs.com/yoyoketang/p/11742187.html)
+    - [Whats the simplest and safest method to generate a API KEY and SECRET in Python](https://stackoverflow.com/questions/34897740/whats-the-simplest-and-safest-method-to-generate-a-api-key-and-secret-in-python/48426397#48426397)

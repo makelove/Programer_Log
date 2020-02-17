@@ -1,5 +1,7 @@
 ## Python的秘密
 
+- 视频 [Python的秘密，你知道吗？Python之禅](https://www.bilibili.com/video/av89586065/)
+
 - Python之禅 
     - import this
     - 英文
@@ -67,12 +69,29 @@ str(uuid4())
 - 使用secrets模块生成secure token
 ```
 import secrets
+
+#生成适合于重置密码和难以想象的URL的安全令牌
 secrets.token_bytes()
 secrets.token_hex()
+
+#返回随机字节为nbytes的URL安全文本字符串。 文本以Base64编码，每个字节平均约为1.3个字符。 如果nbytes为None或未给出，则使用有效的默认值。
 secrets.token_urlsafe()
-secrets.compare_digest?
+
+#减少攻击风险
+secrets.compare_digest("e","E")
+False
+
+tokens使用多少字节
+
+为了抵御蛮力攻击和时序攻击，tokens需要具有足够的随机性。根据专家的说法，32字节(256位)的随机性足以抵御蛮力攻击。您应该根据您的要求选择字节大小。
+
+使用secrets.compare_digest(a,b)减少时序攻击
+
+为了降低时序攻击的风险，secrets模块具有compare_digest(a,b)功能。如果字符串a和b相等，则此函数返回True，否则返回False以降低计时攻击的风险。
+
 ```
 
 - 参考
+    - [Python 的加密库入门](https://zhuanlan.zhihu.com/p/65168597)
     - [HTTP对外接口API sign签名](https://www.cnblogs.com/yoyoketang/p/11742187.html)
     - [Whats the simplest and safest method to generate a API KEY and SECRET in Python](https://stackoverflow.com/questions/34897740/whats-the-simplest-and-safest-method-to-generate-a-api-key-and-secret-in-python/48426397#48426397)

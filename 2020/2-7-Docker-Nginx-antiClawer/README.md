@@ -15,6 +15,8 @@
 
 
 - 运行
+    - 启动server
+        - go run server.go
     - docker run -it --rm -p 80:80 -v /path/nginx1.conf:/etc/nginx/nginx.conf:ro nginx
 
 - 测试

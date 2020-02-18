@@ -1,5 +1,5 @@
 # Scrapy 爬虫自动调整IP代理
-
+- 视频 ？
 - 问题
     - IP代理失效
     
@@ -55,4 +55,10 @@ redis-cli
         - manage_proxy.py
 
 - 运行爬虫测试
-    -         
+    -  scrapy crawl example -s CLOSESPIDER_ITEMCOUNT=1000
+    
+- 测试效果
+    - Nginx 配置，要正确
+        - limit_conn_zone $binary_remote_addr zone=perip:100k;
+        - limit_conn_zone $server_name zone=perserver:100k;
+    - 数值如果太大，就看不出效果

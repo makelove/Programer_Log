@@ -15,7 +15,8 @@ from scrapy_demo.items import ScrapyDemoItem
 class ExampleSpider(scrapy.Spider):
     name = 'example'
     # allowed_domains = ['example.com']
-    url='http://127.0.0.1:8080/'
+    # url='http://127.0.0.1:8080/'
+    url='http://192.168.0.222/api' # 项目2-18-Scrapy-auto-proxy
     start_urls = [url]
 
     def parse(self, response):

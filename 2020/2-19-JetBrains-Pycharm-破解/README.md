@@ -1,5 +1,7 @@
 # JetBrains全家桶 破解
 
+- 视频 https://www.bilibili.com/video/av90073564/
+
 - 常用 PyCharm 、GoLand、WebStorm、IntelliJ IDEA
     - Clion、AppCode、Kotlin
 - 免费领取正版，不用破解

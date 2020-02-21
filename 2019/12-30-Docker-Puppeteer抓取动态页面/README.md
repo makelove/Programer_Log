@@ -74,3 +74,7 @@ DOWNLOADER_MIDDLEWARES = {
    'website.middlewares.Puppeteer': 543,
 }
 ```
+
+- 缺点
+    - 不能更改Puppeteer的UserAgent ？！！
+        - 只能修改index.js 源代码

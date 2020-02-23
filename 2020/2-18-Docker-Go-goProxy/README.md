@@ -1,4 +1,4 @@
-- 视频 ？
+- 视频 https://www.bilibili.com/video/av89812800/
 
 - 本地开发环境损坏
 - 使用Docker作为Go工程的打包编译环境

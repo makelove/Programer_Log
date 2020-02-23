@@ -1,5 +1,5 @@
 ## Scrapy使用Puppeteer中间件抓取JS动态页面
-- 视频 ？
+- 视频 https://www.bilibili.com/video/av91039863/
 
 ## 1. JS动态页面
 

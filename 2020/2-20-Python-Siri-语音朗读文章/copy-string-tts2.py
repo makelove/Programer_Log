@@ -44,17 +44,28 @@ def on_activate_4():
     print('<ctrl>+4 pressed')
     say("Allison")
 
-with keyboard.GlobalHotKeys({
-    '<ctrl>+1': on_activate_1,
-    '<ctrl>+2': on_activate_2,
-    '<ctrl>+3': on_activate_3,
-    '<ctrl>+4': on_activate_4,
-}) as h:
-    h.join()
+
 
 
 def main():
-    h.start()
+    try:
+        with keyboard.GlobalHotKeys({
+                '<ctrl>+1': on_activate_1,
+                '<ctrl>+2': on_activate_2,
+                '<ctrl>+3': on_activate_3,
+                '<ctrl>+4': on_activate_4,
+            }) as h:
+                h.join()
+        h.start()
+    except KeyboardInterrupt as e:
+        print('KeyboardInterrupt',e)
+        return
+    except Exception as e:
+        print('Exception',e)
+        raise
+
+    
+    
     # listener.start()
     pass
 

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{Title}}</title>
+       
+    </head>
+
+    <body>
+        <div>
+            <h1>{{Title}}</h1>
+            <p>视频链接:
+                <a href="https://www.bilibili.com/video/av87182685/" target="_blank">
+                    Scrapy和Go爬虫速度比较，Go简直太快了！Python很难追上！
+                </a></p>
+            <!-- <img src=""> -->
+            <div>
+                在这里用js动态添加a标签和img标签
+                <div id='link'>演示链接:</div>
+                演示图片:
+                <div id='image'></div>
+            </div>
+        </div>
+    </body>
+    
+    <script type="text/javascript">
+        var aTag = document.createElement("a");
+        aTag.innerHTML='我的GitHub网站'
+        aTag.setAttribute('href','https://github.com/makelove')
+        aTag.setAttribute('target','_blank')
+        var linkTag=document.getElementById('link')
+        linkTag.appendChild(aTag)
+
+        var imgTag = document.createElement("img");
+        imgTag.setAttribute('src','http://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg')
+        imgTag.setAttribute('title','演示图片')
+        var imageTag=document.getElementById('image')
+        imageTag.innerHTML=imgTag.outerHTML
+    </script>
+</html>

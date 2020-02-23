@@ -42,6 +42,7 @@ Docker+Puppeteer(Chrome headless node API)
 - 在middlewares.py编写中间件
 
 ```
+from urllib.parse import quote
 class Puppeteer(object):
     @classmethod
     def from_crawler(cls, crawler):
@@ -71,7 +72,7 @@ class Puppeteer(object):
 
 ```
 DOWNLOADER_MIDDLEWARES = {
-   'website.middlewares.Puppeteer': 543,
+   'demo.middlewares.Puppeteer': 543,
 }
 ```
 

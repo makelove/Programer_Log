@@ -1,0 +1,48 @@
+# Go Module 包管理
+- 视频 ？
+
+- 参考
+    - [Break up go project into subfolders](https://stackoverflow.com/questions/23154898/break-up-go-project-into-subfolders)
+        - 很有用-GitHub 代码 https://github.com/J7mbo/go-subdirectories-with-modules
+    - GitHub
+        - https://github.com/jasonkeene/go-modules-demo
+        - 非常详细 https://github.com/go-modules-by-example/index
+
+- 总结
+    - 同一个文件夹内只有一个包
+    - 同一个文件夹内的所有文件，所有变量或函数可以互相调用，不分大小写，不得同名
+    - 子文件夹，也是不同的package 
+    
+- demo 文件夹
+    - 创建模块
+        - go mod init a
+        - 生成go.mod
+    - a.go
+        - 运行程序 go run .
+        - package main
+        - 使用a2.go的变量，直接调用
+            - fmt.Println("a2.go abc2:", abc2)
+        - 使用dir1/b.go的变量
+            - 变量名要大写
+            - import "a/dir1"
+            - fmt.Println("dir1/b.go bbb1:", dir1.bbb1)
+    - a2.go
+        - package main
+            - 不能用其他包名 package xxx 会报错
+        - 变量 var abc2 = 2343
+    - dir1
+        - b.go
+            - 不需要创建模块go.mod
+            - package dir1
+            - 变量 var bbb1 = "b.go bbb1"
+                - 变量名要大写
+        - b2.go
+            - package dir1
+            - 函数名第一个字母，大写func T1() 
+            - 使用dir2/d2.go的变量
+                - import "a/dir2"
+                - fmt.Println("dir2/d2.go ddd2:", dir2.ddd2)
+    - dir2
+        - d2.go
+            - package dir2
+            - 变量 var ddd2 = "d2.go ddd2"

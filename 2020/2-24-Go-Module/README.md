@@ -1,7 +1,8 @@
 # Go Module 包管理
-- 视频 ？
+- 视频 https://www.bilibili.com/video/av91313893/
 
 - 参考
+    - [Go Modules 不完全教程](https://learnku.com/go/t/33859)
     - [Break up go project into subfolders](https://stackoverflow.com/questions/23154898/break-up-go-project-into-subfolders)
         - 很有用-GitHub 代码 https://github.com/J7mbo/go-subdirectories-with-modules
     - GitHub
@@ -14,7 +15,7 @@
     - 同一个文件夹内的所有文件，所有变量或函数可以互相调用，不分大小写，不得同名
     - 子文件夹，也是不同的package ，也可互相导入
     - go不要求package的名称和所在目录名相同，但是你最好保持相同，否则容易引起歧义。因为引入包的时候，go会使用子目录名作为包的路径，而你在代码中真正使用时，却要使用你package的名称。
-    - 
+    - package与文件夹名相同
 
 - 与Python的区别
     - Python通过文件名py来管理导入

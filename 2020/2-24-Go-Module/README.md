@@ -9,16 +9,23 @@
         - 非常详细 https://github.com/go-modules-by-example/index
 
 - 总结
-    - 同一个文件夹内只有一个包
+    - 同一个文件夹内只能存在一个package，否则编译时会报错。
+        - go的package不局限于一个文件，可以由多个文件组成。
     - 同一个文件夹内的所有文件，所有变量或函数可以互相调用，不分大小写，不得同名
-    - 子文件夹，也是不同的package 
-    
+    - 子文件夹，也是不同的package ，也可互相导入
+    - go不要求package的名称和所在目录名相同，但是你最好保持相同，否则容易引起歧义。因为引入包的时候，go会使用子目录名作为包的路径，而你在代码中真正使用时，却要使用你package的名称。
+    - 
+
+- 与Python的区别
+    - Python通过文件名py来管理导入
+    - GO通过package来管理导入
+
 - demo 文件夹
     - 创建模块
         - go mod init a
         - 生成go.mod
+    - 运行程序 go run .
     - a.go
-        - 运行程序 go run .
         - package main
         - 使用a2.go的变量，直接调用
             - fmt.Println("a2.go abc2:", abc2)

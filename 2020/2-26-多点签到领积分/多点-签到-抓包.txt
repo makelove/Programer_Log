@@ -1,0 +1,31 @@
+多点
+签到
+
+curl -H 'Host: appapis.dmall.com' -H 'Accept: */*' -H 'Cookie: first_session_time=1574310210261; web_session_count=1; addr=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E7%99%BD%E5%AE%B6%E7%96%83%E5%B0%9A%E5%93%81%E5%9B%AD1%E5%8F%B7%E6%A5%BC; addrId=; appMode=online; appVersion=4.4.7; areaId=110108; bigdata=; businessCode=1; community=%E7%99%BD%E5%AE%B6%E7%96%83%E5%B0%9A%E5%93%81%E5%9B%AD1%E5%8F%B7%E6%A5%BC; env=app; lat=40.043246; lng=116.185641; platform=IOS; session_id=079C552208294D8C9CF5FC6B8604BEB5; storeGroupV4=1-11480-1,2-11480-1; store_id=11480; tdc=; tempid=C8AF4E0FA1D00002B22A17C019BDDDD0; ticketName=4484988D798A580F36FBF8455694C40250224A91CB8226F4B464582A6ADE8352947EA08F0657D8645D6D3041216E08E8E78F004AB9A14CAAC4BEACBC5C04C8990EF1D08CCA0B8B55295C1C8D938B8443377C2EECF18F2EC1A9871D44BBB01CA12135F3AC155D0B0E85A8F0C31A8FDAEFA297180361FBAEC03B90BE4AB177D191; token=12b731cd-27df-4ab5-b9c4-70bcf628b5fc; uuid=ad5335126ca7762dd08ed9fafc49634de7834f51; vender_id=1' -H 'User-Agent: Mozilla/5.0 (iPod touch; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148Dmall/4.4.7' -H 'Accept-Language: zh-cn' -H 'Referer: https://act.dmall.com/dac/signIn/index.html?dmShowTitleBar=false&dmfrom=wx&bounces=false&dmTransStatusBar=true' --compressed 'https://appapis.dmall.com/static/receiveReward.jsonp?callback=jQuery22308167890741502714_1574310205126&phone=17070258828&taskId=24354&isNew=1&_=1574310205134'
+
+
+jQuery22308167890741502714_1574310205126(
+    {'result': {'code': '0000',
+  'data': {'rewardInfos': [
+      {'replenishSrc': 2,
+     'rewardCount': 2,
+     'rewardItemId': 24252,
+     'rewardName': '2积分',
+     
+     'rewardStatus': 4,
+     'rewardType': 2,
+     'rewardWay': 4,
+     'taskId': 24354},
+    {'batchId': 36369,
+     'replenishSrc': 2,
+     'rewardCount': 1,
+     'rewardItemId': 24253,
+     'rewardName': '0.1元话费券',
+     'rewardStatus': 4,
+     'rewardType': 1,
+     'rewardWay': 4,
+     'taskId': 24354}]},
+  'msg': '用户领取任务奖励成功'}}
+
+    )
+

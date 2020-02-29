@@ -15,18 +15,23 @@ error_proxy_key = 'error_proxy'
 
 def main():
     http_proxy = [
-        'http://127.0.0.1:3121',
-        'http://127.0.0.1:3122',
-        'http://127.0.0.1:3123',
-        'http://127.0.0.1:3124',
+        # 'http://127.0.0.1:3121',
+        # 'http://127.0.0.1:3122',
+        # 'http://127.0.0.1:3123',
+        # 'http://127.0.0.1:3124',
+
+        'http://172.17.0.4:3128',
+        'http://172.17.0.5:3128',
+        'http://172.17.0.6:3128',
+        'http://172.17.0.7:3128',
     ]  #
 
-    init_value = 100  # 1000000  # 1百万
-    for ip in http_proxy:
+    init_value = 10000  # 1000000  # 1百万
+    for idx, ip in enumerate(http_proxy):
         # r.zincrby(proxy_key, init_value, ip)
         # r.zincrby(error_proxy_key, 0, ip)
 
-        r.zadd(proxy_key, {ip: init_value})
+        r.zadd(proxy_key, {ip: init_value+idx})
         r.zadd(error_proxy_key, {ip: 0})
     print('插入完毕')
     pass

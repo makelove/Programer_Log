@@ -1,5 +1,6 @@
 # Nginx反爬虫
-- 视频 https://www.bilibili.com/video/av87302823/
+- 视频  [Nginx反爬虫-禁止UserAgent和IP，使用Docker和Go测试](https://www.bilibili.com/video/av87302823/)
+
 - 参考 
     - https://blog.csdn.net/weixin_34341117/article/details/85848963
     - agent_deny.conf https://blog.csdn.net/markchiu/article/details/52512106

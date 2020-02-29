@@ -1,6 +1,6 @@
 # JetBrains全家桶 破解
 
-- 视频 https://www.bilibili.com/video/av90073564/
+- 视频  [JetBrains全家桶用不了？用VScode代替PyCharm](https://www.bilibili.com/video/av90073564/)
 
 - 常用 PyCharm 、GoLand、WebStorm、IntelliJ IDEA
     - Clion、AppCode、Kotlin

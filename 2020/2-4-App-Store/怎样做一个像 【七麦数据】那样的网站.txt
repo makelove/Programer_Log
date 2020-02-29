@@ -1,7 +1,7 @@
 怎样做一个像 【七麦数据】那样的网站？
 https://www.qimai.cn/
 
-视频:https://www.bilibili.com/video/av86658720/
+- 视频: [怎样抓取AppStore数据？做一个【七麦数据】网站，赚广告费](https://www.bilibili.com/video/av86658720/)
 
 - 获取数据
 从App Store获取数据

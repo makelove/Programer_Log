@@ -2,6 +2,7 @@
 
 - 参考
     - [Elasticsearch通过docker安装及安装中文分词插件](https://blog.csdn.net/weixin_38229356/article/details/84574416)
+    - 官网 https://hub.docker.com/_/elasticsearch/?tab=description
 
 Elasticsearch也使用Java开发并使用Lucene作为其核心来实现所有索引和搜索的功能，
 但是它的目的是通过简单的RESTful API来隐藏Lucene的复杂性，从而让全文搜索变得简单。
@@ -11,9 +12,21 @@ Elasticsearch也使用Java开发并使用Lucene作为其核心来实现所有索
 分布式的实时分析搜索引擎
 可以扩展到上百台服务器，处理PB级结构化或非结构化数据
 
-官网 https://hub.docker.com/_/elasticsearch/?tab=description
+- ES的存储结构
+```
+在ES中，存储结构主要有四种，与传统的关系型数据库对比如下：
+index（Indices）相当于一个database
+type相当于一个table
+document相当于一个row
+properties（Fields）相当于一个column
 
-下载
+Relational DB -> Databases -> Tables -> Rows -> Columns
+Elasticsearch -> Indices -> Types -> Documents -> Fields
+```
+
+
+
+- 下载
 docker pull elasticsearch:6.5.0
 
 运行 启动ES
@@ -25,7 +38,7 @@ docker run -d --name es -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node
 进入镜像
 docker exec -it es_6_5 /bin/bash
 
-安装中文分词插件
+- 安装中文分词插件
 [root@a31684a47a92 elasticsearch]# pwd
 /usr/share/elasticsearch
 [root@a31684a47a92 elasticsearch]# ls
@@ -44,11 +57,11 @@ http.cors.allow-origin: "*"
 重启
 docker restart es_6_5
 
-python api
+- python api
 https://elasticsearch-py.readthedocs.io/en/master/
 
 
-部署 ElasticSearch-Head
+## 部署 ElasticSearch-Head
 3种方式
 https://hub.docker.com/r/mobz/elasticsearch-head
 docker pull mobz/elasticsearch-head:5
@@ -58,8 +71,9 @@ docker restart es_admin
 使用Chrome插件
 https://github.com/mobz/elasticsearch-head
 
-JS查询
-CURL 
+
+## CURL 
+- 参考 https://blog.csdn.net/u013063153/article/details/74108023
 创建索引
 建立索引库company，PUT和POST都可以：
 curl -XPUT 'http://localhost:9200/company'

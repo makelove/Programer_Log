@@ -1,6 +1,6 @@
 ## gocolly 爬虫 入门和案例
 
-- 视频：https://www.bilibili.com/video/av86986554/
+- 视频：[想要九阴真经(经验总结)吗？gocolly爬虫-入门和案例](https://www.bilibili.com/video/av86986554/)
 
 - 参考
     - https://github.com/gocolly/colly

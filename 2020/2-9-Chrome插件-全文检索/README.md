@@ -1,5 +1,7 @@
 # Chrome插件-全文检索
 
+- 视频 [Chrome插件-全文检索，加强Chrome的搜索功能](https://www.bilibili.com/video/av87717829/)
+
 - 日常问题
     - Chrome搜索功能太差了，历史记录+书签收藏夹，
         - 只能搜索标题

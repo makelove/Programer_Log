@@ -1,5 +1,5 @@
 # Go Module 包管理
-- 视频 https://www.bilibili.com/video/av91313893/
+- 视频  [Go-Module包管理，怎样import子文件夹的变量或函数？](https://www.bilibili.com/video/av91313893/)
 
 - 参考
     - [Go Modules 不完全教程](https://learnku.com/go/t/33859)

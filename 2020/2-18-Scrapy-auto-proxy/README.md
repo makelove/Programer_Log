@@ -1,5 +1,5 @@
 # Scrapy 爬虫自动调整IP代理
-- 视频 ？
+- 视频 [Scrapy爬虫自动调整IP代理，避免失效](https://www.bilibili.com/video/av89959782/)
 - 问题
     - IP代理失效
     

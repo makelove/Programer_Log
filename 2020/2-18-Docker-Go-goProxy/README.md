@@ -1,4 +1,4 @@
-- 视频 https://www.bilibili.com/video/av89812800/
+- 视频 [本地开发环境不能用了？Docker帮你实现Go的独立编译环境](https://www.bilibili.com/video/av89812800/)
 
 - 本地开发环境损坏
 - 使用Docker作为Go工程的打包编译环境

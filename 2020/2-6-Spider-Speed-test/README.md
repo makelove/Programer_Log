@@ -1,6 +1,6 @@
 # 爬虫速度比较
 
-- 视频：https://www.bilibili.com/video/av87182685/
+- 视频：[Python和Go爬虫速度比较，Go简直太快了！Python很难追上！](https://www.bilibili.com/video/av87182685/)
 
 常用框架
 - Python

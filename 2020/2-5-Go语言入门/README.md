@@ -1,6 +1,6 @@
 ## Go语言快速入门上手-资料参考
 
-- 视频:https://www.bilibili.com/video/av86957359/
+- 视频: [最快的Go语言入门指南！！资料参考](https://www.bilibili.com/video/av86957359/)
 
 - 安装参考 https://www.jianshu.com/p/79bdd20c46cf
 

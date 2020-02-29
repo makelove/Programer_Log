@@ -1,5 +1,7 @@
 # 微博实时抓取
 
+- 视频 [想第一时间看到爱豆的动态吗？快来学【微博实时抓取】吧](https://www.bilibili.com/video/av89008576/)
+
 - 参考 
     - https://github.com/makelove/puppeteer-examples/blob/master/my02-%E5%BE%AE%E5%8D%9A-%E6%98%8E%E6%98%9F-%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0/test1.js
 

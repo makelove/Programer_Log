@@ -1,5 +1,7 @@
 # 2-23-压力测试-locust
-- 视频 https://www.bilibili.com/video/av91066346/
+
+- 视频  [蝗虫来袭！你的服务器顶得住【压力测试】吗？locust](https://www.bilibili.com/video/av91066346/)
+
 - 参考 
     - [locust是一个易于使用的，分布式的，用户负载测试工具](http://blog.timd.cn/python-locust/)
 - 常用的压力测试有

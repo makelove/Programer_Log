@@ -2,7 +2,7 @@
 
 ## 在Docker 运行 微信Windows版
 
-- 视频
+- 视频  [微信营销？在Docker运行微信Windows版，机器人自动回复淘口令](https://www.bilibili.com/video/av92594352)
 
 - 参考
     - [DoChat-Dockerized WeChat (盒装微信) ](https://github.com/huan/docker-wechat)

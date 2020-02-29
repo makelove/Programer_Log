@@ -2,3 +2,7 @@
 
 
 - 有问题，请写到issue里面
+
+- 点赞打赏，助人为乐^_^
+    - <img src="data/wechat_donate.jpg" width = "200" height = "200" alt="wechat_donate"  />
+

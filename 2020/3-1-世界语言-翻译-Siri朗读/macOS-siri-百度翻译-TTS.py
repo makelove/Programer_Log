@@ -5,6 +5,10 @@
 
 """
 macOS-siri-百度翻译-TTS.py:
+
+你好 早上好，你吃饭了吗？
+
+国际和平，让和平白鸽自由飞翔，带去安宁温馨；让美好橄榄枝四处蔓延，编织幸福世界；让和谐旗帜随风飘扬，传递快乐心语。祝愿世界和平，永无战争！
 """
 import time
 from AppKit import NSSpeechSynthesizer
@@ -13,7 +17,8 @@ from baidu_translate_api import translate
 nssp = NSSpeechSynthesizer
 ve = nssp.alloc().init()
 
-voices = {
+#来源 https://stackoverflow.com/questions/29152617/nsspeechsynthesizer-voice-language-relations
+voices = {#注释掉的语言是百度翻译API不支持的
     "en": ("com.apple.speech.synthesis.voice.Alex", '英语'),  # 英语
     "ru": ("com.apple.speech.synthesis.voice.milena", '俄语'),  # 俄语
     "ara": ("com.apple.speech.synthesis.voice.tarik", '阿拉伯'),  # 阿拉伯
@@ -25,7 +30,6 @@ voices = {
     # "id": ("com.apple.speech.synthesis.voice.damayanti",'印度尼西亚'),#印度尼西亚
     "spa": ("com.apple.speech.synthesis.voice.Jorge", '西班牙'),  # 西班牙
     "it": ("com.apple.speech.synthesis.voice.alice", '意大利'),  # 意大利
-    # "zh": ("com.apple.speech.synthesis.voice.ting-ting",'中国'),#中国
     "kor": ("com.apple.speech.synthesis.voice.yuna", '韩国'),  # 韩国
     "de": ("com.apple.speech.synthesis.voice.anna", '德国'),  # 德国
     # "no": ("com.apple.speech.synthesis.voice.nora",'挪威'),#挪威
@@ -45,9 +49,9 @@ voices = {
 
 
 def say(voice, text):
-    ve.setVoice_(voice)
     # print(voice)
     # print(text)
+    ve.setVoice_(voice)
     ve.startSpeakingString_(text)
 
     while not ve.isSpeaking():  # 等待发音
@@ -67,20 +71,20 @@ def main():
 
     # 普通话
     print('普通话')
-    # say('com.apple.speech.synthesis.voice.ting-ting', text)
+    say('com.apple.speech.synthesis.voice.ting-ting', text)
     # 台湾
     print('台湾')
-    # say('com.apple.speech.synthesis.voice.mei-jia', text)
+    say('com.apple.speech.synthesis.voice.mei-jia', text)
     # 香港
     print('香港')
-    # say('com.apple.speech.synthesis.voice.sin-ji', text)
+    say('com.apple.speech.synthesis.voice.sin-ji', text)
 
     # for
     for lang, (voice, country) in voices.items():
         print(country, '\t', lang, '\t', voice)
-        transtr = translate(text, froml='zh', tol=lang)
+        transtr = translate(text, froml='zh', tol=lang)#翻译api可能限流
         print(transtr)
-        # say(voice, transtr)
+        say(voice, transtr)
         print('-' * 40)
         # time.sleep(0.5)
     pass

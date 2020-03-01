@@ -8,6 +8,6 @@ config.py:
 """
 
 
-# happyjnu
+
 baidu_appid = 'xxx'
 baidu_secretKey = 'xxxx'

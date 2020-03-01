@@ -1,6 +1,11 @@
 ## 2-26-最简单的翻墙代理
 
-- 视频 [越狱？最简单的代理服务器Go，翻过防火墙](https://www.bilibili.com/video/av91817713/)
+- 视频  
+    - 失效了。 [越狱？最简单的代理服务器Go，翻过防火墙](https://www.bilibili.com/video/av91817713/)
+    - 百度网盘
+        - 链接:https://pan.baidu.com/s/15qUFJKDMBDUl6ldlXh-zzQ  密码:jnxi
+    - 今日头条
+        - url
 
 - 参考
     - [chrome 67版本后无法拖拽离线安装CRX格式插件的解决方法](https://chromecj.com/utilities/2018-09/1525.html)

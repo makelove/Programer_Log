@@ -46,7 +46,7 @@ def translate(sub, froml=None, tol='zh'):
 
     #
     rs = requests.get(myurl)
-    print(rs.text)
+    # print(rs.text)
     js = json.loads(rs.text)
     return js['trans_result'][0]['dst']
 

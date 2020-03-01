@@ -82,7 +82,13 @@ def main():
     # for
     for lang, (voice, country) in voices.items():
         print(country, '\t', lang, '\t', voice)
-        transtr = translate(text, froml='zh', tol=lang)#翻译api可能限流
+        try:
+            transtr = translate(text, froml='zh', tol=lang)#翻译api可能限流
+        except Exception as e:
+            print('Exception',e)
+            continue
+            pass
+        
         print(transtr)
         say(voice, transtr)
         print('-' * 40)

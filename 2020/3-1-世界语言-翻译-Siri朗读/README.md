@@ -7,11 +7,89 @@
     - [通用翻译API接入文档](http://api.fanyi.baidu.com/doc/21)
 -  Python调用macOS Siri [Python Text to Speech in Macintosh](https://stackoverflow.com/questions/12758591/python-text-to-speech-in-macintosh)
 
+- 语言-发音人，映射
+    - https://stackoverflow.com/questions/29152617/nsspeechsynthesizer-voice-language-relations
+
 
 - 翻译请求限制
 
 
 - 结果
+
+```
+(.py3) localhost:3-1-世界语言-翻译-Siri朗读 play$ py macOS-siri-百度翻译-TTS.py
+请输入中文:你好 早上好，你吃饭了吗？
+你好 早上好，你吃饭了吗？
+普通话
+台湾
+香港
+英语 	 en 	 com.apple.speech.synthesis.voice.Alex
+Hello, good morning. Have you eaten yet?
+----------------------------------------
+俄语 	 ru 	 com.apple.speech.synthesis.voice.milena
+Как ты поужинал?
+----------------------------------------
+阿拉伯 	 ara 	 com.apple.speech.synthesis.voice.tarik
+مرحبا صباح الخير ، هل تناولت الطعام في ؟
+----------------------------------------
+匈牙利 	 hu 	 com.apple.speech.synthesis.voice.mariska
+Jó reggelt, ettél már valamit?
+----------------------------------------
+荷兰 	 nl 	 com.apple.speech.synthesis.voice.ellen
+Hallo, heb je al gegeten?
+----------------------------------------
+希腊 	 el 	 com.apple.speech.synthesis.voice.melina
+Γεια σας, καλημέρα, έχετε φάει ακόμα;
+----------------------------------------
+丹麦 	 dan 	 com.apple.speech.synthesis.voice.sara
+Hej, godmorgen, har du spist endnu?
+----------------------------------------
+西班牙 	 spa 	 com.apple.speech.synthesis.voice.Jorge
+¿Buenos días. Has comido?
+2020-03-01 20:58:46.947 python[17098:739108] NSSpeechSynthesizer: [NSSpeechSynthesizer setVoice:] - Voice identifier not found.
+----------------------------------------
+意大利 	 it 	 com.apple.speech.synthesis.voice.alice
+Ciao, buongiorno, hai gia'mangiato?
+----------------------------------------
+韩国 	 kor 	 com.apple.speech.synthesis.voice.yuna
+안녕하세요. 좋은 아침 식사 하셨어요?
+----------------------------------------
+德国 	 de 	 com.apple.speech.synthesis.voice.anna
+Guten Morgen, haben Sie schon gegessen?
+----------------------------------------
+波兰 	 pl 	 com.apple.speech.synthesis.voice.zosia
+Dzień dobry, czy już jadłeś?
+----------------------------------------
+葡萄牙 	 pt 	 com.apple.speech.synthesis.voice.joana
+Bom dia, você já comeu?
+----------------------------------------
+罗马尼亚 	 rom 	 com.apple.speech.synthesis.voice.ioana
+Bună dimineaţa, aţi mâncat deja?
+----------------------------------------
+斯洛伐克 	 slo 	 com.apple.speech.synthesis.voice.laura
+Dobro jutro, ste že jedli?
+----------------------------------------
+泰国 	 th 	 com.apple.speech.synthesis.voice.kanya
+สวัสดีตอนเช้าคุณทานอาหารรึยัง
+----------------------------------------
+芬兰 	 fin 	 com.apple.speech.synthesis.voice.satu
+Hyvää huomenta, oletko jo syönyt?
+----------------------------------------
+法国 	 fra 	 com.apple.speech.synthesis.voice.thomas
+Bonjour, vous avez mangé?
+----------------------------------------
+捷克 	 cs 	 com.apple.speech.synthesis.voice.zuzana
+Dobrý den, už jste jedli?
+----------------------------------------
+瑞典 	 swe 	 com.apple.speech.synthesis.voice.alva
+God morgon, har du ätit än?
+----------------------------------------
+日语 	 jp 	 com.apple.speech.synthesis.voice.kyoko
+すみません、おはようございます。食事は済みましたか？
+----------------------------------------
+(.py3) localhost:3-1-世界语言-翻译-Siri朗读 play$
+```
+
 
 ```
 (.py3) localhost:~ play$ py /Users/play/github/Machine_Translation_Subtitles_Group/src/macOS-siri-百度翻译-TTS.py

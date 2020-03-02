@@ -1,7 +1,7 @@
 # 3-1-世界语言-翻译-Siri朗读
 
 
-- 视频 ？
+- 视频  [鬼畜！把中文翻译到世界语言，然后用Siri朗读](https://www.bilibili.com/video/av92915931/)
 
 - 百度翻译api
     - [通用翻译API接入文档](http://api.fanyi.baidu.com/doc/21)

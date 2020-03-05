@@ -2,7 +2,7 @@
 - WireShark 抓包 解密 https
     - 演示，淘宝直播，博物馆云春游，抓取视频回放网址
 
-- 视频 ？WireShark抓包-解密-https
+- 视频  [云春游？WireShark抓包，解密https，跟踪互联网7层协议](https://www.bilibili.com/video/av93598800/)
 - 参考
     - [通过 wireshark 抓包了解直播流媒体RTMP协议基本过程](https://blog.csdn.net/tanningzhong/article/details/92987585)
     - [Wireshark 抓包理解 HTTPS 请求流程（2） - TLS/SSL 握手](https://ukscott.blogspot.com/2019/03/wireshark-https-2-tlsssl.html)
@@ -82,6 +82,7 @@
 
 
 - 淘宝直播 m3u8文件，视频流
+    - 微博 https://weibo.com/1855335174/IwzGdF4mZ
     - 参考 
         - [使用Wireshark抓取淘宝直播回放源地址并下载](https://www.jianshu.com/p/8333d90dc83e)
         - [WireShark提取天猫魔盒请求链接](https://blog.csdn.net/zengraoli/article/details/104085906)

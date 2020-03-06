@@ -4,6 +4,9 @@
     - https://www.winehq.org/
     - 安装指南Ubuntu https://wiki.winehq.org/Ubuntu_zhcn
     - http://ubuntuhandbook.org/index.php/2019/12/install-wine-4-21-ubuntu-19-10/
+    - 其他
+        - https://wiki.ubuntu.com.cn/Wine
+        - [Linux下通过Wine安装微信](https://zhuanlan.zhihu.com/p/76331687)
 
 - 视频 ？
 
@@ -23,6 +26,9 @@ sudo apt install --install-recommends winehq-stable
 wine --version
 wine-5.3
 ```
+- 卸载
+    - sudo apt remove --install-recommends winehq-devel
+
 
 - wine 第一次运行
     - /home/play/.wine

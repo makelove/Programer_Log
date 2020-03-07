@@ -53,3 +53,14 @@
 然后要创建mod文件
 go mod init example.com/m
 ```
+
+- 使用VScode编程Go语言
+    - 参考 https://github.com/makelove/Programer_Log/tree/master/2020/2-18-Docker-Go-goProxy
+    - 步骤
+        - 设置环境变量
+            - export GO111MODULE=on
+            - export GOPROXY=https://goproxy.cn
+        - 下载VScode的插件【Go for Visual Studio Code】
+            - 参考 https://github.com/microsoft/vscode-go
+        - 便可以自动import go 模块了
+    - 另外，你在命令行 go build main.go时，Go 会自动下载模块

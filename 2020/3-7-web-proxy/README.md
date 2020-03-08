@@ -1,6 +1,6 @@
 # Python编程获取【在线网页代理】地址
 
-- 视频 ？
+- 视频 [先收藏！！Python编程获取【在线网页代理】的重定向地址](https://www.bilibili.com/video/av94486958/)
 
 - 在线ping服务 https://pingtool.org/
 

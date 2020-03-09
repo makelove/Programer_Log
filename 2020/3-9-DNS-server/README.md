@@ -7,6 +7,7 @@
     - [How to write a DNS server in Go](https://jameshfisher.com/2017/08/04/golang-dns-server/)
         - 使用到的Go库 https://github.com/miekg/dns
     - 完整的程序 [如何在Go编程语言中编写自己的DNS代理？](https://www.smartspate.com/write-dns-proxy-go-programming-language/)
+        - 目的是：屏蔽广告
         - 代码 https://github.com/GoWebProd/goDNS
             - 也是使用上面的dns库
             - 问题 

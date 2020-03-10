@@ -2,6 +2,20 @@
 
 - 视频
 
+- 参考
+    - https://github.com/richardchien/nonebot
+    - 文档 指南 https://nonebot.cqp.moe/guide/
+    - 术语表 https://nonebot.cqp.moe/glossary.html
+        - CQ 码 
+    - CoolQ HTTP API 插件  https://cqhttp.cc/docs/4.14/#/
+        - 使用Docker https://cqhttp.cc/docs/4.14/#/Docker
+        - GitHub https://github.com/richardchien/coolq-http-api
+            - 下载 https://github.com/richardchien/coolq-http-api/releases
+    - 酷Q 社区 https://cqp.cc/b/news
+        - [酷Q Air / Pro 功能对比](https://cqp.cc/t/23290)
+            - Air是免费版，不能发图片和语音
+            - Pro 收费，￥12/月
+
 - 安装
     - pip install nonebot
 

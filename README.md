@@ -5,6 +5,8 @@
     - 加我微信WeChat: sexy8dream
 
 - 因为raw.githubusercontent.com被墙了，你们会看到图片挂了
+    - 加入/etc/hosts
+        - 151.101.248.133 raw.githubusercontent.com
 - 下载download
     - Download ZIP
     - git
@@ -12,7 +14,7 @@
         - 更新 git fetch origin master  
 
 - Donate点赞打赏，助人为乐^_^
-    - <img src="data/wechat_donate.jpg" width = "200" height = "200" alt="wechat_donate"  />
+    - <img src="wechat_donate.jpg" width = "200" height = "261" alt="wechat_donate"  />
 
 
 - 重要列表

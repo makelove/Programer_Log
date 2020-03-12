@@ -1,6 +1,6 @@
 # nonebot+酷Q+Docker
 
-- 视频
+- 视频 [Python编程实现【QQ 聊天机器人】nonebot+酷Q+Docker](https://www.bilibili.com/video/av95262479/)
 
 - 参考
     - https://github.com/richardchien/nonebot
@@ -37,12 +37,23 @@ docker run -ti  --name cqhttp-test \
 docker start cqhttp-test
 docker logs -f cqhttp-test
 docker stop cqhttp-test
-
 ```
 然后访问 http://<你的IP>:9000/ 
 进入 noVNC（默认密码 MAX8char ），登录 酷Q，即可开始使用
 （插件已自动启用，配置文件也根据启动命令的环境变量自动生成了）。
 一般情况下，你不太需要关注插件是如何存在于容器中的。
+
+- 更正 Docker启动项
+```
+docker run -ti  --name cqhttp-test \
+             -v $(pwd)/coolq:/home/user/coolq \
+             -p 9000:9000 \
+             -e COOLQ_ACCOUNT=2262965903 \
+             -e CQHTTP_USE_WS_REVERSE=true \
+             -e CQHTTP_WS_REVERSE_API_URL=ws://192.168.0.222:8080/ws/api/ \
+             -e CQHTTP_WS_REVERSE_EVENT_URL=ws://192.168.0.222:8080/ws/event/ \
+             richardchien/cqhttp:latest
+```
 
 配置文件位置
 - /Users/play/CODE/QQ/kuQ/coolq/app/io.github.richardchien.coolqhttpapi/config/2262965903.ini

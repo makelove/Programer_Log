@@ -1,5 +1,12 @@
 # macOS 倒计时 自动锁屏
 
+- 参考
+    - Ubuntu [A timer that automatically locks the screen to take a break away from the computer?](https://askubuntu.com/questions/696620/a-timer-that-automatically-locks-the-screen-to-take-a-break-away-from-the-comput)
+    - [Mac下添加定时任务](https://blog.csdn.net/lgt633744/article/details/45932035)
+    
+- 键盘快捷键 
+    - Command + Control + Q
+
 - lockscreen.py 比较迅速，马上就锁屏
 - suspend.py 会准备系统，退出当前账号
 

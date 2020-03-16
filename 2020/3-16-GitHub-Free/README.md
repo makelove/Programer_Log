@@ -1,11 +1,17 @@
 # Github 免费资源
 - https://github.com/search
+
+- 搜索 关键词，只要你的关键词 恰当，就能找到，很多意想不到的东西
+
 - 搜索 免费
     - 免费 ssr
     - 免费 电子书
+        - [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
     - 免费 API
+        - [统计了网上诸多的免费API，为您收集免费的接口服务，做一个api的搬运工](https://github.com/fangzesheng/free-api) 
     - 免费 代理
     - 免费 电影
+        - [各大网站vip视频免费观看 等 Mac版。付费电影，VIP会员剧等，去广告播放。](https://github.com/iodefog/VipVideo)
 
 - 搜索 free
     - 免费 英文电子书

@@ -57,9 +57,9 @@ def weixin():
 @app.route('/weixin', methods=['POST'])
 def reply():
     if request.method == 'POST':
-        data = request.data
-        #测试
+        data = request.data      
         # data=b'<xml><ToUserName><![CDATA[wwefbaf556aed20639]]></ToUserName><Encrypt><![CDATA[bBEQ8PazeD7W/IQz61kBUNTGpl4Epv2OzER3NKOyMKHKddYtpXvzmuL8jMgMA6Tg5odxj+T8f+yYbC8bxubV2RbzKQaeJvgcbx8ekzCn1pLXOB+17kcZYD2Bf65FTjhtTdMrdTqBFH4yZTzY/Jf3C5PBz08U8TAxp/x+zmZmFZEGhbfFdWUC2OYhxyXV8aemoLBnkixJdMyP8zFXnlyPvk2WtRxOf+UJb/yX+SbIXwnUDPODj03lgPKSkZj6jpwLv/o6H3wLVifpFTqWwU5ICu5S/tJwO1acyL0yc2oEswZhB2ZdTFCrCGJCjWIT+9abkd9jseb0G9o4dBY/kLuTQhdZIJemofcl0HWUTGLnAPNSQ51sYvfLejz8IKIrQFai11YKrsImyQz5QXLZpe8YVkA+zpDb8SHfZkhKfxP5daM=]]></Encrypt><AgentID><![CDATA[1000003]]></AgentID></xml>'
+        #测试 curl -X POST 'http://127.0.0.1:5000/weixin?msg_signature=4e411db7d0507473882bb5718438364ab5a17bec&timestamp=1584351579&nonce=1584033068'
         print(data)
 
         encrypted_xml = data

@@ -1,6 +1,6 @@
 # 企业微信 Python编程
 
-- 视频 ？
+- 视频 [企业微信【群机器人】轻松上手，企业应用App接收和回复用户消息，Python编程](https://www.bilibili.com/video/av96809101/)
 
 
 - 群机器人

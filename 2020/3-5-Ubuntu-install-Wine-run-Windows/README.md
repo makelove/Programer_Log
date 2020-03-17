@@ -8,7 +8,7 @@
         - https://wiki.ubuntu.com.cn/Wine
         - [Linux下通过Wine安装微信](https://zhuanlan.zhihu.com/p/76331687)
 
-- 视频 ？
+- 视频 [Ubuntu安装Wine-在Linux执行Windows程序](https://www.bilibili.com/video/av93953401/)
 
 - 步骤
 ```

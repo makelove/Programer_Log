@@ -1,10 +1,13 @@
 # Github 免费资源
 - https://github.com/search
 
+- 视频 [大宝藏！Github免费资源！免费电子书](https://www.bilibili.com/video/av96702294/)
+
 - 搜索 关键词，只要你的关键词 恰当，就能找到，很多意想不到的东西
 
 - 搜索 免费
     - 免费 ssr
+        - [类酸酸乳订阅源聚合](https://github.com/nulastudio/Freedom)
     - 免费 电子书
         - [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
     - 免费 API

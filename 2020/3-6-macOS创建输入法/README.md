@@ -1,6 +1,6 @@
 # 很简单！macOS创建自己的输入法
 
-- 视频 ？
+- 视频 [很简单！macOS创建自己的输入法](https://www.bilibili.com/video/av94162883/)
 
 - 参考
     - [在 Mac 上创建和使用您自己的输入法](https://support.apple.com/zh-cn/guide/mac-help/mchlp2866/mac)

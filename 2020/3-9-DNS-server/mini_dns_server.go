@@ -10,11 +10,12 @@ dig @127.0.0.1 www.free-proxy.com
 
 设置为系统DNS ，运行正常
 
+本地缓存 OK
 
-进一步
+下一步
 GitHub gfw list
 
-本地缓存
+
 */
 
 package main

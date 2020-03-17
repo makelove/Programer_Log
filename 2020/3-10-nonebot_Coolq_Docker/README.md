@@ -1,9 +1,9 @@
 # nonebot+酷Q+Docker
 
-- 视频 [Python编程实现【QQ 聊天机器人】nonebot+酷Q+Docker](https://www.bilibili.com/video/av95262479/)
 - 视频 
     - [Python编程实现【QQ 聊天机器人】nonebot+酷Q+Docker](https://www.bilibili.com/video/av95262479/)
     - [【QQ+拼多多】返现程序，在服务器上Docker运行](https://www.bilibili.com/video/av95478130/)
+    - 群管理+定时发送 [nonebot和酷Q的计划任务和群消息管理](https://www.bilibili.com/video/av96010898/)
 
 - 参考
     - https://github.com/richardchien/nonebot

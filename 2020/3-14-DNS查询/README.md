@@ -1,6 +1,6 @@
 
 # DNS查询 nameserver
-- 视频 ？
+- 视频 [DNS查询nameserver，用WireShark检查DNS报文，Python编程](https://www.bilibili.com/video/av96180822/)
 - 参考 
     - [一个强大的基于 Go 的 DNS 库](https://zhengyinyong.com/post/go-dns-library/)
 
@@ -21,6 +21,7 @@ socket.gethostbyname(host)
 #'120.92.113.99'
 ```
 - 指定 nameserver
+    - https://github.com/rthalley/dnspython/tree/master/examples
 ```
 import dns.resolver
 resolver = dns.resolver.Resolver(configure=False)

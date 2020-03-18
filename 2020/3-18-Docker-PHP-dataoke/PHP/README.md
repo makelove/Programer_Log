@@ -1,11 +1,13 @@
 - 本地测试 
 
 ## 修改hosts 
+```
 vi /etc/hosts
 127.0.0.1 youhui.dark.net.cn
+```
 
-搞错了 fmp
-https://www.runoob.com/docker/docker-install-php.html
+- 参考 php:fmp
+    - https://www.runoob.com/docker/docker-install-php.html
 
 ## Docker
 https://hub.docker.com/_/php?tab=description
@@ -23,16 +25,17 @@ docker run -it --rm  -v "$PWD":/usr/src/myapp -w /usr/src/myapp php php phpinfo.
 
 需要Nginx来配合
 
-## 启动PHP
-OK
+## 启动PHP OK
 docker run  --name  myphp-fpm -v "$PWD"/nginx/www:/www   php:5.6-fpm
 
 ## 启动nginx
+```
 docker run  -p 80:80 -it --rm \
     -v "$PWD"/nginx/www:/usr/share/nginx/html:ro \
     -v "$PWD"/nginx/conf/conf.d:/etc/nginx/conf.d:ro \
     --link myphp-fpm:php \
     nginx
+```
 
 ## 浏览器打开
 - http://youhui.dark.net.cn/

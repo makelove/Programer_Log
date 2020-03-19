@@ -1,6 +1,6 @@
 # Docker+PHP 部署【大淘客cms网站】
 
-- 视频 ？
+- 视频 [Docker+PHP 部署【大淘客cms网站】，技术门槛很低，大家都可以做](https://www.bilibili.com/video/av97236044/)
 
 - 操作指南 [PHP](PHP)
 

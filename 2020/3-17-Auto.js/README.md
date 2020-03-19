@@ -2,7 +2,7 @@
 - https://github.com/hyb1996/Auto.js
 - 文档 https://hyb1996.github.io/AutoJs-Docs/#/
 
-- 视频 ？
+- 视频 [快速上手！Auto.js从入门到精通](https://www.bilibili.com/video/av96970457/)
 
 - 用途
     - 薅羊毛

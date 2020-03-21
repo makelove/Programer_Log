@@ -9,13 +9,17 @@ vscode 安装 Python 插件
 '''
 
 import requests
+
+
 def main():
-    url='http://httpbin.org/ip'
-    rs=requests.get(url)
+    url = 'http://httpbin.org/ip'
+    rs = requests.get(url)
+    print(rs.headers)
     print(rs.text)
-    js=rs.json()
+    js = rs.json()
     print(js['origin'])
     pass
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,50 @@
+{
+    "version": "0.1.1",
+    "manifest_version": 2,
+    "permissions": [
+        "<all_urls>",
+        "contextMenus",
+        "activeTab",
+        "tabs",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "name": "__MSG_title__",
+    "default_locale": "zh_CN",
+    "description": "__MSG_description__",
+    "icons": {
+        "128": "128.png",
+        "16": "16.png",
+        "48": "48.png"
+    },
+    "content_scripts": [
+        {
+            "css": [ "css/tab.css" ],
+            "js": [
+                "js/lib/jquery-3.4.1.js",
+                "js/lib/vue.js",
+                "js/content.js"
+            ],
+            "matches": [
+                "https://movie.douban.com/subject/*/",
+                "https://movie.douban.com/subject/*/*"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "persistent": true,
+        "scripts": [
+            "js/lib/jquery-3.4.1.js",
+            "js/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "128": "128.png",
+            "16": "16.png",
+            "48": "48.png"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Show Magnet Link at Douban Movie detail page,so we can download directly"
+   },
+   "title": {
+      "message": "Douban Movie Magnet Link"
+   }
+}

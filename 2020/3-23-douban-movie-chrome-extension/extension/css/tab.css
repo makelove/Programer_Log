@@ -1,0 +1,40 @@
+
+    #main {
+        width: 600px;
+        margin: 200px auto;
+    }
+
+    #tab {
+        overflow: hidden;
+        background: #967171;
+        border: 1px solid #000;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #tab li {
+        float: left;
+        color: #fff;
+        height: 30px;
+        cursor: pointer;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+
+    #tab li.showed {
+        color: #000;
+        background: #ddd;
+    }
+
+    #contents {
+        border: 1px solid #000;
+        border-top-width: 0;
+    }
+
+    #contents ul {
+        line-height: 150px;
+        display: none;
+        margin: 0 30px;
+        padding: 10px 0;
+    }

@@ -1,7 +1,7 @@
 
 # 豆瓣电影 Chrome 插件
 
-- 视频 ？做个【豆瓣电影Chrome插件】，再也不用满世界找资源BT下载了
+- 视频  [做个【豆瓣电影Chrome插件】，再也不用满世界找资源BT下载了](https://www.bilibili.com/video/BV1D7411m7pF/)
 - 源代码 放在extension文件夹，可以通过Chrome【开发者模式】加载电影插件
 
 ```

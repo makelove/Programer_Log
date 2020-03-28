@@ -1,7 +1,7 @@
 
 # Python反向编程？ 编程经验
 
-- 视频 ？
+- 视频 [Python反向编程？根据 Pycharm错误提示 来完善代码](https://www.bilibili.com/video/BV1gC4y1s7GR/)
 
 ```
 先写结果，反过来

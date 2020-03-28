@@ -2,9 +2,9 @@
 
 # 解密 m3u8
 
-- 视频 ？
+- 视频 [冷门知识！解密m3u8视频，下载ts文件后用FFmpeg合并](https://www.bilibili.com/video/BV17c411h7z7/)
     - 上次视频 [怎样用Python下载m3u8视频](https://www.bilibili.com/video/BV1ft41137Ad/)
-        - python [怎样下载m3u8视频](https://github.com/makelove/Python_Master_Courses/blob/master/%E5%9B%BE%E5%83%8F%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/%E6%80%8E%E6%A0%B7%E4%B8%8B%E8%BD%BDm3u8%E8%A7%86%E9%A2%91/download_m3u8.py) 
+        - python代码 [怎样下载m3u8视频](https://github.com/makelove/Python_Master_Courses/blob/master/%E5%9B%BE%E5%83%8F%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/%E6%80%8E%E6%A0%B7%E4%B8%8B%E8%BD%BDm3u8%E8%A7%86%E9%A2%91/download_m3u8.py) 
 
 - Library https://github.com/globocom/m3u8
 

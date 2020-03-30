@@ -7,9 +7,13 @@
     - 开阔视野
 
 - Python
+    - Python周报 https://www.pythonweekly.com/
+    - https://importpython.com/newsletter/
+    - https://realpython.com/newsletter/
 - OpenCV
     - https://www.pyimagesearch.com/newsletter/
-    - 
+    - https://www.learnopencv.com/
+        - https://opencv.org/courses/
 - 慕课 公开课
     - TED https://www.ted.com/newsletter
     - https://www.coursera.org/

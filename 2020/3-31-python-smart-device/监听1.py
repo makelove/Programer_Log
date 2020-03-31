@@ -13,6 +13,9 @@ BroadLink_OEM
 项目合作 - 杭州博联智能科技股份有限公司 - BroadLink
 http://www.broadlink.com.cn/cooperation.html
 
+
+也可以
+nc -ul 127.0.0.1 5005
 """
 from socket import *
 

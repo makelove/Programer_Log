@@ -1,6 +1,6 @@
 
 # python编程 控制智能硬件
-- 视频 ？
+- 视频 [python编程-控制智能硬件，4个插座可以实现很多功能，智能家居终于实现了](https://www.bilibili.com/video/BV1up4y1C7mv/)
 
 - 智能硬件
     - [鸿雁（HONYAR）智能wifi插座 每位独立定时开关 远程手机遥控 插排/插线板/拖线板 计量型](https://union-click.jd.com/jdc?e=&p=AyIGZRprFwcQAlYTXCVGTV8LRGtMR1dGFxBFC1pXUwkEBwpZRxgHRQcLREJEAQUcTVZUGAVJHk1cTQkTSxhBekcLVx5ZEAEaAGUcGVJrFk4jQjlMfHFsIFAPcABwHQV7VxkyEzdVGloUBhsEURJZJTISBGVNNRUDEwZWGFkTBRY3VRhSEwYXBF0YWCUCFg5RHFkUAxQBURpdJQUSDmVLB0VJSlgDGFoQCiI3Vx5ZEAEaAGUYayUyEjdWKxl7VRNUVk9SEAoSVQdMXkUAE1QASwwXBBtXBxgIHQZGUAYrWRQDFg4%3D)
@@ -9,6 +9,12 @@
         - 型号 IHC8342B 
 
 - 之前尝试通过WireShark【抓包】来获取 控制接口，但是没有找到
+    - WireShark 过滤
+```shell script
+ip.src == 192.168.0.101
+ip.dst == 192.168.0.107
+ip.dst == 255.255.255.255
+```
 - 突然发现 有 Python api
     - https://github.com/mjg59/python-broadlink
         - 杭州博联智能科技股份有限公司 http://www.broadlink.com.cn
@@ -23,6 +29,9 @@
     - [博联MP系列智能插排设备连接及控制方法，如MP1、MP2等](https://www.domoticz.cn/forum/viewtopic.php?f=33&t=22&sid=3cc9783df8f361e02b039be216c0d6ba)
         - 代码 有 bug
         - 修改后 [broadlink1.py](broadlink1.py)
+    - UDP编程
+        - [Raw socket programming in python (Linux)](https://www.binarytides.com/raw-socket-programming-in-python-linux/)
+      
 
 - 增加 使用场景 
     - 回家

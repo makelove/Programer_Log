@@ -1,6 +1,6 @@
 
 # 邮件订阅 newsletter Subscribe
-- 视频 ？
+- 视频 [程序员-邮件订阅，自动接收各种最新资讯，技术趋势，比别人懂多一点](https://www.bilibili.com/video/BV1k64y1M7es/)
 - 目的
     - 了解最新资讯，教程，技术趋势
     - 学习英语
@@ -20,6 +20,7 @@
     - https://www.udacity.com/
 - 人工智能
     - https://www.kaggle.com/
+    - 人工智能-周报 http://aiweekly.co/
 - 众筹
     - https://www.kickstarter.com/
     - https://www.indiegogo.com/

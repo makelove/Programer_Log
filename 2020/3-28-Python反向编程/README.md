@@ -15,3 +15,4 @@
 
 - 需求
     - 验证 IP代理 是否 可用，有效
+        - https://ip.jiangxianli.com/?protocol=http

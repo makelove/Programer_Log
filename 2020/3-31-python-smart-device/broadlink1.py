@@ -35,8 +35,12 @@ def main2():
 
     device = broadlink.mp1(host=(device_ip, device_port), mac=bytearray.fromhex(device_mac), devtype=device_type)
 
-    device.auth()
+    rs=device.auth()
+    print('认证:',rs)
     # device.host
+
+    status = device.check_power()#获取 插排 通电状态
+    print('状态:', status)  # {'s1': False, 's2': False, 's3': True, 's4': False}
 
     if action == "on":
         if socket == "s1":

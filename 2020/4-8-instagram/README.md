@@ -1,7 +1,7 @@
 
 # Instagram 爬虫
 
-- 视频 ？
+- 视频 [想看漂亮小姐姐吗？Instagram爬虫，Python编程](https://www.bilibili.com/video/BV1sg4y187rh)
 
 - 参考
     - GitHub

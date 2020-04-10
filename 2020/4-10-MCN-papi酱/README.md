@@ -1,7 +1,8 @@
 
 # 网红MCN papi酱
 
-- 视频 ？
+- 视频 [什么是MCN?papi酱成立的papitube签约了多少网红？](https://www.bilibili.com/video/BV1MA411b7YX/)
+    - 指南 [怎样建立一个MCN](https://www.bilibili.com/video/BV1tt4y1U7kf/) Youtube视频
 
 - 什么是MCN？
     - MCN（Multi-Channel Network）是舶来品，是一种多频道网络的产品形态，将PGC内容联合起来，在资本的有力支持下，保障内容的持续输出，从而最终实现商业的稳定变现。
@@ -27,5 +28,4 @@
 
         - 爬虫开发工程师 15-25K
             - 北京3-5年本科
-            -https://www.zhipin.com/job_detail/09ffb8df208d6bb603193N-0EVQ~.html
-
+            - https://www.zhipin.com/job_detail/09ffb8df208d6bb603193N-0EVQ~.html

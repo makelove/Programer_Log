@@ -2,7 +2,7 @@
 # 程小奔 智能小车 python编程
 - 官网 https://www.makeblock.com/cn/steam-kits/codey-rocky
 
-- 视频 ？
+- 视频 [买了2年积灰了！程小奔 智能小车 python编程](https://www.bilibili.com/video/BV1o54y197nh/)
 
 - 下载mblock编程环境 https://www.mblock.cc/zh-cn/
     - 安装

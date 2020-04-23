@@ -1,7 +1,7 @@
 
 # 使用moviepy制作 GIF动画
 
-- 视频 ？
+- 视频 [不需要视频剪辑软件，使用moviepy制作GIF动画，Python编程](https://www.bilibili.com/video/BV1hK4y1k7Qn/)
 
 - 步骤
     - 准备图片

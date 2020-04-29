@@ -67,6 +67,9 @@
             - [VL49 迷你led补光灯便携小型摄影灯手机vlog视频拍摄多功能外拍灯户外直播拍照自拍手持单反相机摄像机影室灯
 2000mAh大容量 持久续航 轻巧便携 多灯拼接](https://detail.tmall.com/item.htm?id=608816739769) 
                 - ¥ 79
+        - 防水壳 
+            - [适用于gopro max防水壳 gopro max360全景运动相机配件水下镜头潜水保护壳 gopro max防水壳](https://item.jd.com/66602490801.html)
+                - ￥308
 
 
 - 开箱上手

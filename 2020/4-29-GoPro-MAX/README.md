@@ -22,6 +22,18 @@
                 - 使用 Quik，您可以无比轻松地存取、编辑和欣赏您的 GoPro 照片和视频。只需点击几下，即可自动导入1您的影像并制成搭配同步配乐的精彩视频
     - GoPro大奖 https://gopro.com/zh/cn/awards 
 
+
+- GoPro MAX 特点
+    - 360度 全景相片和视频
+    - Max HyperSmooth 超强防抖
+    - 6个内置麦克风
+    - 坚固耐用 + 5米防水
+    - 一机三用
+        - 全景相机
+        - GoPro Hero 8 black
+        - 自拍相机 VLog
+        - = Insta360 ONE X运动全景相机 + DJI 大疆 Osmo Action 灵眸运动相机
+
 - 购买
     - 京东 [GoPro MAX 全景运动相机 Vlog数码摄像机 水下潜水户外骑行滑雪直播相机 增强防抖 裸机防水](https://item.jd.com/100004982557.html) 
         - 免息分期24期，每月166.66元

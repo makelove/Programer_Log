@@ -111,3 +111,8 @@
         - 直播码: ?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761
         - 复制到手机 GoPro App:
             - rtmp://bvc.live-send.acg.tv/live-bvc/?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761
+    - 如何使用我的手机个人热点进行视频直播？ 
+        - 购买手机流量套餐
+        - 手机打开-个人热点
+        - GoPro App 连接热点
+        - 设置直播

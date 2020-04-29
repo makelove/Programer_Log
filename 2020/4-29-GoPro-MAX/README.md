@@ -2,7 +2,7 @@
 # GoPro MAX 全景运动相机 购买 使用 测评
 - 《穷人评测》第一集
 
-- 视频？
+- 视频 [GoPro MAX 全景运动相机 购买 使用 测评，《穷人评测》第一集 ](https://www.bilibili.com/video/BV1mf4y1S78S/)
 
 - 参考
     - 官网 https://gopro.com/zh/cn/
@@ -21,6 +21,7 @@
             - [Quik | 桌面版](https://gopro.com/zh/cn/shop/softwareandapp/quik-%7C-%E6%A1%8C%E9%9D%A2%E7%89%88/Quik-Desktop.html)
                 - 使用 Quik，您可以无比轻松地存取、编辑和欣赏您的 GoPro 照片和视频。只需点击几下，即可自动导入1您的影像并制成搭配同步配乐的精彩视频
     - GoPro大奖 https://gopro.com/zh/cn/awards 
+        - 拍到好作品，参赛拿奖金！
 
 
 - GoPro MAX 特点
@@ -34,16 +35,23 @@
         - 自拍相机 VLog
         - == Insta360 ONE X运动全景相机 + DJI 大疆 Osmo Action 灵眸运动相机
 
+- 售后，保护
+    - 特别注意，前后2个摄像头的镜头，划花了，不保修的！
+        - 平时不使用的时候，用保护罩盖起来
+        - 一些危险场景，使用透明罩
+
 - 购买
+    - 注意【价格保护】，购买后可能促销降价，例如我买了闪迪TF卡，2天后降价20元
     - 京东 [GoPro MAX 全景运动相机 Vlog数码摄像机 水下潜水户外骑行滑雪直播相机 增强防抖 裸机防水](https://item.jd.com/100004982557.html) 
-        - 免息分期24期，每月166.66元
+        - ￥3998，免息分期24期，每月166.66元
         - 墨西哥生产
     - 竞品
-        -  [Insta360 ONE X运动全景相机摄像机 5.7K高清运动防抖户外直播](https://item.jd.com/100000696258.html)
+        - [Insta360 ONE X运动全景相机摄像机 5.7K高清运动防抖户外直播](https://item.jd.com/100000696258.html)
         - [DJI 大疆 Osmo Action 灵眸运动相机 双彩屏 超强增稳 超清画质 裸机防水 vlog摄像机](https://item.jd.com/100003394837.html) 
             - 前后双彩屏
     - 配件
         - TF卡  [闪迪（SanDisk）64GB TF（MicroSD）存储卡 U3 C10 A2 V30 4K 至尊极速移动版内存卡 读速160MB/s 写速60MB/s](https://item.jd.com/2217746.html)
+            - ￥109
         - 自拍杆等配件 [SURWEO For GoPro配件hero8/7/6/5/4大疆运动相机套装小蚁相机转接配件套装 特价B](https://item.jd.com/27524547841.html)
             - 塑料味
         - 电池,先不买
@@ -57,14 +65,15 @@
 
         - 补光灯
             - [VL49 迷你led补光灯便携小型摄影灯手机vlog视频拍摄多功能外拍灯户外直播拍照自拍手持单反相机摄像机影室灯
-2000mAh大容量 持久续航 轻巧便携 多灯拼接](https://detail.tmall.com/item.htm?id=608816739769)
+2000mAh大容量 持久续航 轻巧便携 多灯拼接](https://detail.tmall.com/item.htm?id=608816739769) 
+                - ¥ 79
 
 
 - 开箱上手
     - 防伪，二手东
         - 扫描二维码
         - [英迈电子商贸上海](http://www.trustim.cn/)
-            - 2019045206610644
+            - 识别码 2019045206610644
             - 你所查询的数码已在2020年04月27日18时48分查询过，谨防假冒，请联系你的销售网点，谢谢使用！
     - 充电
         - 看手册，5V1A
@@ -75,18 +84,27 @@
 
 - 剪辑
     - 锚点
+    - 调整视角
+    - 剪切，去掉不想要的片段
+    - 导出mp4，分享到社交平台，朋友圈
 
 - 全景相片，上传 平台
     - YouTube
+        - 需要翻墙，流量过大！
     - https://720yun.com/
+        - 相片demo https://720yun.com/t/davks927spb
+        - 全景视频 待审核
 
 
 - 直播
     - [视频直播使用入门](https://community.gopro.com/t5/zh-cn/35270-39057-30452-25773-20351-29992-20837-38376/ta-p/400413?profile.language=zh-CN)
+        - 不能使用【全景模式】，只能使用【Hero模式】
+        - 支持国内平台
+        - YouTube直播
     - B站
-        - 选择 直播分类
+        - 选择 【直播分类】
         - 使用第三方软件开播的用户点击开始直播后获取rtmp地址和推流码。
         - rtmp地址: rtmp://bvc.live-send.acg.tv/live-bvc/
         - 直播码: ?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761
-        - 复制到GoProApp:
+        - 复制到手机 GoPro App:
             - rtmp://bvc.live-send.acg.tv/live-bvc/?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761

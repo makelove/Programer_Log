@@ -98,10 +98,13 @@
 
 - 全景相片，上传 平台
     - YouTube
-        - 需要翻墙，流量过大！
+        - 需要翻墙，上传流量过大！
     - https://720yun.com/
         - 相片demo https://720yun.com/t/davks927spb
-        - 全景视频 待审核
+        - 全景视频 https://720yun.com/v2/e47z0e7tnr5
+            - 可以自由切换视角，默认是视频开始的方向
+                - 因为我上楼梯后转弯，到后面一直是显示我。
+                - 在这个平台，没法设置不同时间点的视角
 
 
 - 直播
@@ -113,9 +116,9 @@
         - 选择 【直播分类】
         - 使用第三方软件开播的用户点击开始直播后获取rtmp地址和推流码。
         - rtmp地址: rtmp://bvc.live-send.acg.tv/live-bvc/
-        - 直播码: ?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761
+        - 直播码: ?streamname=live_180958619_2148315&key=27db078641ff8zffa42b07a0f1bd8761
         - 复制到手机 GoPro App:
-            - rtmp://bvc.live-send.acg.tv/live-bvc/?streamname=live_180948619_2148315&key=27db078641ff8bffa42b07a0f1bd8761
+            - rtmp://bvc.live-send.acg.tv/live-bvc/?streamname=live_180958619_2148315&key=27db078641ff8zffa42b07a0f1bd8761
     - 如何使用我的手机个人热点进行视频直播？ 
         - 购买手机流量套餐
         - 手机打开-个人热点

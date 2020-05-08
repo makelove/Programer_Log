@@ -32,6 +32,7 @@
 - 下载
     - 搜索，国外平台
     - 声音是法语，字幕却是英文
+    - 百度网盘，联系我。链接: https://pan.baidu.com/s/1Scygxfogu4T99naRdiAQJQ  
 - 字幕
     - 英文 https://www.opensubtitles.com/en/subtitles/le-crime-est-notre-affaire
     - 用【谷歌翻译】转成中文

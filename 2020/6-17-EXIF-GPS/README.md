@@ -8,6 +8,8 @@
 
 - 参考
     - 微博 https://weibo.com/2612164690/FmfjLFtH3
+    - [长江、黄河、澜沧江源头地理位置重新认定](http://blog.sina.com.cn/s/blog_70f293fb0101b66r.html)
+    - [gpsphoto文档](https://pypi.org/project/gpsphoto/)
 
 - 需求
     - 黄河源头GPS坐标

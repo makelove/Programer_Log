@@ -1,6 +1,6 @@
 # iPad，在地图上绘画
 
-- 视频 ？
+- 视频 [使用iPad，在地图上绘画，自驾游路线图，路标](https://www.bilibili.com/video/BV1Mv411B7zS/)
 
 - 准备
     - iPad Pencil ，最好有它

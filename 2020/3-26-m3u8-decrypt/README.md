@@ -13,6 +13,7 @@
 
 
 - 参考
+    - [m3u8 文件格式详解](https://www.jianshu.com/p/e97f6555a070)
     - [FFmpeg解码M3U8合并解密TS到MP4](https://luluit.top/archives/2070.html)
     - [加密的m3u8、ts文件合并](https://blog.csdn.net/guanxiao1989/article/details/90529865)
     - [How to decrypt .ts file (AES-128)?](https://www.reddit.com/r/ffmpeg/comments/c3e6jw/how_to_decrypt_ts_file_aes128/)

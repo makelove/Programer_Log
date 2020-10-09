@@ -1,8 +1,9 @@
 ## 微雪-墨水屏-编程
 
-
-- e-Paper ESP32 Driver Board
-    - 微雪 4.2寸墨水屏裸屏 电子纸 显示模块 红黑白三色 兼容树莓派4
+## 购买
+    - [微雪 墨水屏裸屏驱动板 SPI接口 ESP32 ESP8266 支持WIFI/蓝牙](https://s.click.taobao.com/t?e=m%3D2%26s%3DLWwjUCPQv2QcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67trmiN9ZoeYrZW7hPg9HazilldgrEKAMDZqHHjUPN5fPvcXgLQcnSPhUUJCbLNYEnHJi6DFpZGNc%2Bht3wBcxEojg%2BvVPtZxVh1vzY1gj2%2FS51m%2FRykadurUYtE6uZJaO3HEqY%2Bakgpmw&scm=null&pvid=null&app_pvid=59590_11.88.32.203_568_1602231743720&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_11.88.32.203_568_1602231743720&union_lens=lensId%3APUB%401602231720%400b1a25df_d9d4_1750c73d849_2645%40026UvXKptoe9OnJOZeqXA9tB)
+        -  e-Paper ESP32 Driver Board
+    - [微雪 4.2寸墨水屏裸屏 电子纸 显示模块  红黑白三色 兼容树莓派4](https://s.click.taobao.com/t?e=m%3D2%26s%3Dgu%2FRd0bRTGkcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67ogRc0DrYpkvFfrEfJ4hp2qlldgrEKAMDZqHHjUPN5fPvcXgLQcnSPhUUJCbLNYEnHJi6DFpZGNc%2Bht3wBcxEojg%2BvVPtZxVh1vzY1gj2%2FS51m%2FRykadurUDBRIF6NDIT3EqY%2Bakgpmw&scm=null&pvid=null&app_pvid=59590_11.26.37.22_555_1602231877211&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_11.26.37.22_555_1602231877211&union_lens=lensId%3APUB%401602231873%400b14eca8_ae89_1750c763150_4d4c%40027HYB50teMJ7vU6A8SsikWj)
 
 - 资料
     - https://www.waveshare.net/wiki/E-Paper_ESP32_Driver_Board

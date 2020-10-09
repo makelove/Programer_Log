@@ -74,6 +74,21 @@ Ok!
     - 手机蓝牙，连接电子纸驱动板
     - 打开App，上传图片
 
+## macOS系统
+- 安装驱动很麻烦，不支持，不推荐使用macOS
+```
+I found that macOS High Sierra has blocked the SiLabs kernel extension.
+
+Here are steps to allow this extension:
+
+Go to "System Preferences" -> "Security & Privacy"
+In the bottom of the window, you will see a message "System software from developer "SiLabs" was blocked from loading."
+Click on "Allow" button
+Restart your Mac
+Now my device is listed as /dev/cu.SLAB_USBtoUART and everything work as expected.
+```
+
+## 售后
 - 微雪客服，技术支持工程师
 ```
 EMAIL：2355742828@qq.com

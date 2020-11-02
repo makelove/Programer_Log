@@ -1,5 +1,8 @@
 ## 微雪-墨水屏-编程
 
+## 视频
+- [微雪墨水屏-Arduino编程，ESP32 支持WiFi和蓝牙](https://www.bilibili.com/video/BV1yz4y1C7Y8/)
+
 ## 购买
 - 淘宝，运费6元
     - [微雪 墨水屏裸屏驱动板 SPI接口 ESP32 ESP8266 支持WIFI/蓝牙](https://s.click.taobao.com/t?e=m%3D2%26s%3DLWwjUCPQv2QcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67trmiN9ZoeYrZW7hPg9HazilldgrEKAMDZqHHjUPN5fPvcXgLQcnSPhUUJCbLNYEnHJi6DFpZGNc%2Bht3wBcxEojg%2BvVPtZxVh1vzY1gj2%2FS51m%2FRykadurUYtE6uZJaO3HEqY%2Bakgpmw&scm=null&pvid=null&app_pvid=59590_11.88.32.203_568_1602231743720&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_11.88.32.203_568_1602231743720&union_lens=lensId%3APUB%401602231720%400b1a25df_d9d4_1750c73d849_2645%40026UvXKptoe9OnJOZeqXA9tB)

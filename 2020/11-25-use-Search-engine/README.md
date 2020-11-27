@@ -1,6 +1,6 @@
 # 怎样使用搜索引擎
 
-- 视频
+- 视频 [【实践】怎样使用搜索引擎？代替Google](https://www.bilibili.com/video/BV1UD4y1X7xm/)
 
 ## 国内
 - 不要使用百度
@@ -23,6 +23,9 @@
         - 会调整到http://www.google.com.hk/webhp?hl=zh-CN&sourceid=cnhp
             - 打不开
         - 用来下载 Chome 和 Google Earth 
+            - http://www.google.cn/chrome/
+            - http://www.google.cn/intl/zh-CN/earth/
+        - 翻译 https://translate.google.cn/?hl=zh-CN
     - https://www.google.com.hk 
         - 打不开
 - https://duckduckgo.com/

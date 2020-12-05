@@ -1,6 +1,6 @@
 ## Python编程，Flask网站播放m3u8流媒体
 
-- 视频 ？
+- 视频 [【Python编程】Flask网站播放m3u8流媒体](https://www.bilibili.com/video/BV15K4y1L7nF/)
 
 - 步骤
     - FFmpeg切割视频，ts

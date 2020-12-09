@@ -17,3 +17,14 @@
     - [使用FFmpeg作为HLS流服务器（第1部分）– HLS基础](https://www.martin-riedl.de/2018/08/24/using-ffmpeg-as-a-hls-streaming-server-part-1/)
         - 第二部分 https://www.martin-riedl.de/2018/08/24/using-ffmpeg-as-a-hls-streaming-server-part-2/
     - [m3u8下载](https://gist.github.com/primaryobjects/7423d7982656a31e72542f60d30f9d30)
+    
+- ffmpeg 切割视频，生成m3u8
+```shell script
+ffmpeg  -i  input.mp4   \
+   -c:v libx264 -crf 21 -preset veryfast \
+    -c:a aac -b:a 128k -ac 2 \
+    -f hls -hls_time 4 -hls_playlist_type event stream.m3u8
+
+ffmpeg -i input.mp4  \
+    -c:v libx264 -c:a aac -strict -2 -hls_time 20 -f hls output.m3u8
+```  

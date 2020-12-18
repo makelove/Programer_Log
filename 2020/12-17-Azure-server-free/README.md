@@ -26,6 +26,9 @@
     - Nginx反向代理
     - Squid代理
         - 用来做爬虫
+        - 参考 
+            - 搭建 https://www.linuxidc.com/Linux/2019-08/159960.htm
+            - squid搭建高匿名代理服务 https://www.jianshu.com/p/96c8f1f7fd17
         - 测试
             - curl -x 你的IP:3128 http://httpbin.org/ip
     - SSR
@@ -54,6 +57,11 @@
     - pip3 install python-ffmpeg-video-streaming
     - 下载视频
         - 从服务器到本机
+            - 使用Nginx
+                - sudo ln -s /home/ms/video/ /var/www/html/video
+                - 修改Nginx配置，添加【目录遍历】
+                    - 参考 https://blog.csdn.net/ddazz0621/article/details/85338671
+                - 打开 http://服务器IP/video/
             - 可以使用ftp，比较慢
             - 使用Flask ，比较快，1 m/s
                 - response=send_file(fp,as_attachment=True,attachment_filename=filename)

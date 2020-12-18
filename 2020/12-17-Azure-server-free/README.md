@@ -44,7 +44,8 @@
     - sudo apt-get install python3-pip
     - pip3 install virtualenv
     - virtualenv  -p /usr/bin/python3.6 .py3
-    - 把source ~/.py3/bin/activate 加到~/.bashrc末尾
+    - 把source ~/.py3/bin/activate 
+        - 加到~/.bashrc末尾
         - 这样，每次登录服务器，就能自动使用Python 虚拟环境
         
 - YouTube视频

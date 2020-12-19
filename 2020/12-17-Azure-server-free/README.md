@@ -90,6 +90,7 @@
                         - 图片：测试1_441.jpeg
                         - -r 30 帧率
                         - -vcodec libx264 编码器
+                        - 视频[【测试】Google Earth Studio 样片，使用ffmpeg合成，无声](https://www.bilibili.com/video/BV1yp4y1q7Nw/)
 
                 - 使用moviepy
                 

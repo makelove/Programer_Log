@@ -6,7 +6,8 @@
 
 - 因为raw.githubusercontent.com被墙了，你们会看到图片挂了
     - 加入/etc/hosts
-        - 151.101.248.133 raw.githubusercontent.com
+        - 151.101.156.133 raw.githubusercontent.com
+            - India印度服务器
 - 下载download
     - Download ZIP
     - git
@@ -19,3 +20,8 @@
 
 - 重要列表
     - [越狱？最简单的代理服务器Go，翻墙，Chrome插件](2020/2-26-Go_Proxy_server)
+        - 在国外服务器测试了，不能直接使用。很容易被识别,被拦截
+            - curl -x 168.62.xxx.xxx:8081 https://httpbin.org/ip
+                - 正常返回IP
+            - curl -x 168.62.xxx.xxx:8081 https://kh.google.com
+                - curl: (56) Recv failure: Connection reset by peer

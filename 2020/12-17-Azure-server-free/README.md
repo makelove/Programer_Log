@@ -69,7 +69,7 @@
         - https://github.com/newnewcoder/flask-hls-demo
         - https://github.com/aminyazdanpanah/python-ffmpeg-video-streaming
         - 问题，ts文件大，网速慢，体验差
-```shell script
+```
 (.py3) ms@f1:~/video$ youtube-dl https://www.youtube.com/watch?v=79aP7BhrbuI
 [youtube] 79aP7BhrbuI: Downloading webpage
 [youtube] 79aP7BhrbuI: Downloading MPD manifest

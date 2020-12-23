@@ -8,6 +8,8 @@
 - 怎样修改域名+IP，打开国外网站更流畅？
     - 查询 全球DNS
         - https://www.gdnspc.com/
+        - 国内 https://www.ping.cn/dns
+            - [拨号API接口](https://www.ping.cn/api)
     - 获取 服务器IP
         - 把curl转成Python Requests代码
             - https://curl.trillworks.com/

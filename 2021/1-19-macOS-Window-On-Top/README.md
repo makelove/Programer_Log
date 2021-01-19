@@ -1,6 +1,8 @@
 
 ## 如何让你的窗口“AlwaysOnTop” 总是置顶
 
+- 视频 [【经验】macos窗口置顶 AfloatX  2021](https://www.bilibili.com/video/BV12t4y1z7Vi/)
+
 - 参考
     - [【Mac效率】如何让你的窗口“AlwaysOnTop”](https://www.jianshu.com/p/2563250da71d)
         - Afloat过期，5年没更新 https://github.com/rwu823/afloat

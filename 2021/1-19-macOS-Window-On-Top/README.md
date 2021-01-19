@@ -12,6 +12,7 @@
         - AfloatX（用于Catalina）：https://github.com/jslegendre/AfloatX
         - MacForge 是macOS的开源插件管理器。它使您可以发现，安装和管理插件，以改善macOS的用户体验，而无需手动克隆/构建或复制文件。 https://github.com/MacEnhance/MacForge
             - 要关闭SIP
+            - 下载 https://www.macenhance.com/macforge
 - 其他方法
     - 购买一个大屏显示器，屏幕空间大，放下更多窗口
         - 2个显示器一起工作

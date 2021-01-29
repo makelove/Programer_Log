@@ -1,11 +1,11 @@
 
 ## 监控服务器，并向钉钉报警
 
-- 视频 ？
+- 视频 [【编程】监控服务器，并向钉钉报警，Python  psutil DingtalkChatbot crontab](https://www.bilibili.com/video/BV1Yv411s73w/)
 
 - 推荐图书
-    - [Python自动化运维：技术与最佳实践]()
-    - [Python自动化运维快速入门]()
+    - [Python自动化运维：技术与最佳实践](https://union-click.jd.com/jdc?e=&p=AyIGZRhfHQARDlMTWRUyEgZUGF8RAxQBVRNZHQIiQwpDBUoyS0IQWhkeHAxBFQQAQB1AWQkFGk1dRFkRdQtUWgxxAV4pVEBkRAtfGhtASEM7Qw4ZAhMGVh9fFAQUB10ZUxUVRUQLR1dHQ1AQAlgFSQ5ARhcrW09SVno0YBN3QBFVBxM7EUVVDlRGKxkOIgZlG1oUAxYOVh9SFzIiB1IrGnsCEwNSGF0UAyIGZRtcFQIbD1AfXRIAEg5lHFscMkJbBVADSlQRBlATayUyETdlK1slASJFO09aQgRCAgZLCBBQGgIGTw9GB0dUXR1fF1YVB1QTXBILIgVUGl8c)
+    - [Python自动化运维快速入门](https://union-click.jd.com/jdc?e=&p=AyIGZRhYFQcQBFQTWRMyEgZUGFwUBxYCVRhTEAsiQwpDBUoyS0IQWhkeHAxBFQQAQB1AWQkFGk1dRFkRdQtUWgxxAV4pVEBkRAtfGhtASEM7Qw4ZAhMGVhxaEAYXB1YTXhwVRUQLR1dHQ1AQAlgFSQ5ARhcrIRBBSVojXQR1XRVPCEEuD39xbApBKxkOIgZlG1oUAxYOVh9SFzIiB1IrGnsCEwVRE1McByIGZRtcFQIbD1AcWhUAGwdlHFscMkJbBVADSlQRBlATayUyETdlK1slASJFO09aQgRCAgZLCBBQGgIGTw9GB0dUXR1fF1YVB1QTXBILIgVUGl8c)
 
 - psutil https://pypi.org/project/psutil/
     - 安装

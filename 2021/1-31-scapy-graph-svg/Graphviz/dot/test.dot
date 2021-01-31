@@ -1,0 +1,18 @@
+digraph G {
+   rankdir=LR;
+   a -> b;
+   b -> c;
+   subgraph x{
+       rank=same;
+       b->d;
+   }
+   subgraph y{
+       //rank = same;
+       d->e;
+   }
+   subgraph z{
+     rank=same;
+     c->e;
+   }
+ 
+}

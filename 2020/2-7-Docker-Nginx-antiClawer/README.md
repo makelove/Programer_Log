@@ -5,6 +5,10 @@
     - https://blog.csdn.net/weixin_34341117/article/details/85848963
     - agent_deny.conf https://blog.csdn.net/markchiu/article/details/52512106
     - Nginx 服务器之速率限制 https://cloud.tencent.com/developer/news/35222
+    
+- 图书
+    - [《Python 3反爬虫原理与绕过实战》](https://book.douban.com/subject/34938311/)
+      
 
 - 启动Docker
 

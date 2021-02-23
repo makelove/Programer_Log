@@ -1,7 +1,7 @@
 
 ## 怎样 编写出 高质量代码 ？
 
-- 视频 ？
+- 视频 [【编程】怎样 编写Python【高质量代码】？推荐2本图书](https://www.bilibili.com/video/BV1Jb4y1R7C7/)
 
 - 我的建议
     - 添加注释 笔记 

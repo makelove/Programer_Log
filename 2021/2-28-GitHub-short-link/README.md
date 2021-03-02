@@ -7,6 +7,9 @@
     - [【编程】GitHub Pages免费图床，淘宝客，淘口令二维码，Python](https://www.bilibili.com/video/BV1iV411v7oL/)
 
 - 免费
+    - 唯一的成本是域名，每年要续费
+    - 域名的长度要尽可能地短，例如t.cn 
+        - 减少短链接长度
 - 我的网站链接
     - 重定向
         - https://dark.net.cn/sl/t1.htm

@@ -11,6 +11,7 @@
 - 图书
     - 《Chrome扩展及应用开发》https://book.douban.com/subject/25980975/
         - 代码 https://github.com/sneezry/chrome_extensions_and_apps_programming 
+        - 修改后的代码仓库 https://github.com/makelove/bookChromeExtensions
 
     - 《Programming Chrome Apps》 英文
         - http://product.dangdang.com/1460304694.html 

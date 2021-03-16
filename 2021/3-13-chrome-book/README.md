@@ -14,3 +14,7 @@
 
     - 《Programming Chrome Apps》 英文
         - http://product.dangdang.com/1460304694.html 
+
+- 参考
+    - ch5 网络请求
+        - [Chrome Extension 的 webRequest模块的解读](https://www.cnblogs.com/devcjq/articles/4232029.html)

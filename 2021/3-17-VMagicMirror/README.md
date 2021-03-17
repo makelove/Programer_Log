@@ -23,7 +23,7 @@
     - 在VRoid Hub中使用模型，需要验证签约
         - 拿到一个授权代码，输入
         - 在模型窗口选择模型，下载
-    - 嘴唇与麦克风同步 LipSync
+    - 嘴唇与麦克风同步 LipSync口型同步
         - 一开始正常，后来就不同步了，奇怪！
     - 摄像头，头部跟踪
     - 手部追踪 ？？要买Leap Motion
@@ -33,6 +33,9 @@
         - 选中Presentation-like hand移动VRM的右手，就好像他/她正在演示中一样。
     - 窗口透明
         - 默认是绿幕
+    - 外部跟踪器 Ex.Tracker 
+        - 文档 https://malaybaku.github.io/VMagicMirror/en/docs/external_tracker
+        - 支持Face ID的iPhone App ： iFacialMocap
     - 直播 https://malaybaku.github.io/VMagicMirror/en/tips/virtual_camera
         - 安装OBS Studio
             - 创建一个新来源，选择Game Capture游戏捕获

@@ -7,14 +7,15 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/reujab/wallpaper"
 	"github.com/levigross/grequests"
+	"github.com/reujab/wallpaper"
 )
 
-func getWp() string {//获取壁纸图片地址
+func getWp() string { //获取壁纸图片地址
 	ro := &grequests.RequestOptions{
 		// Params: map[string]string{"Hello": "Goodbye"},
-		RedirectLimit: -1,
+		RedirectLimit:      -1,
+		InsecureSkipVerify: true,
 	}
 	resp, err := grequests.Get("https://api.ixiaowai.cn/gqapi/gqapi.php", ro)
 	if err != nil {
@@ -24,9 +25,7 @@ func getWp() string {//获取壁纸图片地址
 	return url
 }
 
-
 func main() {
-
 
 	background, err := wallpaper.Get()
 
@@ -35,8 +34,8 @@ func main() {
 	}
 
 	fmt.Println("当前Current wallpaper:", background)
-    url:=getWp()
-    fmt.Println("墙纸:",url)
-	wallpaper.SetFromURL(url)//OK
+	url := getWp()
+	fmt.Println("墙纸:", url)
+	wallpaper.SetFromURL(url) //OK
 	fmt.Println("设置完毕")
 }

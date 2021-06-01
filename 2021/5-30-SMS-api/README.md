@@ -3,6 +3,7 @@
 
 - 视频
     - [【推荐】怎样在电脑上接收短信？绿芽-短信转发微信-介绍](https://www.bilibili.com/video/BV1wh411e7rv/)
+    - [【编程】编写puppeteer机器人自动登录网站，绿芽-短信转发微信-回调api](https://www.bilibili.com/video/BV1yv411V7XB/)
 
 ## 需求
 - 网站登录，需要手机验证码

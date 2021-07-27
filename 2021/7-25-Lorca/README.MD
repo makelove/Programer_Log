@@ -1,5 +1,7 @@
 
-什么是Lorca？
+- 视频 [【编程】Lorca-Go语言-跨平台-桌面应用开发框架-比Electron好用，在 Go + HTML5 中构建跨平台的现代桌面应用程序](https://www.bilibili.com/video/BV1Tg411779a/)
+
+## 什么是Lorca？
 Go语言的桌面应用开发框架
 
 - 对比Electron

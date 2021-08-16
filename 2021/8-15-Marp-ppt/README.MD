@@ -5,6 +5,7 @@ marp: true
 # <!-- fit -->  Marp：用 Markdown「写」PPT 的新选择
 - Marp
     - Markdown --> PPT
+
 ---
 # 需求
 - 制作视频之前，写文案
@@ -14,7 +15,7 @@ marp: true
         - 有动画更好
 - 简洁，清晰明了
     - 不想做得花里胡哨
-
+- 视频 [【新技能】Marp 使用 Markdown 制作 PPT ， 电脑不用安装PowerPoint](https://www.bilibili.com/video/BV17v411T7wH/)
 ---
 - 参考
     - [Marp：用 Markdown「写」PPT 的新选择](https://sspai.com/post/55718)
@@ -25,8 +26,11 @@ marp: true
     - toggle打开或关闭特效
         - marp: true
     - 缺点，没有动画特效
+- Demo
+    - https://yhatt-marp-cli-example.netlify.app/#1
+        - 代码 https://github.com/yhatt/marp-cli-example
 
-# reveal.js
+# reveal.js 官网 https://revealjs.com/
 ---
 编辑完成后，通过编辑器右上角的 Marp 图标按钮就可以调出 Export slide deck 命令并导出幻灯片了。Marp 插件目前支持导出 HTML 和 PDF 格式，另外可以将首页导出为 PNG 或 JPEG 格式的图片。
 
